@@ -144,7 +144,7 @@ const iconTheme = "ri-sun-line";
 const selectedTheme = localStorage.getItem("selected-theme");
 const selectedIcon = localStorage.getItem("selected-icon");
 
-const getCurentTheme = () =>
+const getCurrentTheme = () =>
   document.body.classList.contains(darkTheme) ? "dark" : "light";
 const getCurrentIcon = () =>
   themeButton.classList.contains(iconTheme) ? "ri-moon-line" : "ri-sun-line";
